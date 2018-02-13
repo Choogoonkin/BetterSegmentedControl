@@ -154,7 +154,7 @@ import UIKit
         }
     }
     
-    public func addShadow(_ color: UIColor = .black, offset: CGSize = CGSize(width: 0.0, height: 0.0), radius: CGFloat = 10, opacity: Float = 0.15) {
+    public func addShadowToIndicatorView(_ color: UIColor = .black, offset: CGSize = CGSize(width: 0.0, height: 0.0), radius: CGFloat = 10, opacity: Float = 0.15) {
         indicatorView.layer.shadowColor = color.cgColor
         indicatorView.layer.shadowOffset = offset
         indicatorView.layer.shadowRadius = radius
