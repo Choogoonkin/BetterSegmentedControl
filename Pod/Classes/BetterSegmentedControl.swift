@@ -159,6 +159,7 @@ import UIKit
         indicatorView.layer.shadowOffset = offset
         indicatorView.layer.shadowRadius = radius
         indicatorView.layer.shadowOpacity = opacity
+        indicatorView.clipsToBounds = false
     }
     
     /// Whether the indicator should bounce when selecting a new index. Defaults to true
